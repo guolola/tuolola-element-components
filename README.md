@@ -1,7 +1,7 @@
 **English** | [简体中文](./readme-zh-cn.md)
 
 <p align="center">
-  <img src="./docs/brand/icon.svg" width="120" height="120" alt="Tuolola Element Components logo" />
+  <img src="./docs/brand/logo.png" width="120" height="120" alt="Tuolola Element Components logo" />
 </p>
 
 <div align="center">
@@ -10,7 +10,8 @@
 
 <p>
   <strong>A home for the Tuolola component project</strong><br />
-  Project documentation and MIT license · Source code pending
+  A documented starting point for a reusable component project.<br />
+  <sub>Project identity · Bilingual documentation · MIT license</sub>
 </p>
 
 <p>
@@ -24,6 +25,8 @@
   <img src="https://img.shields.io/badge/Docs-English%20%2B%20中文-2563eb?style=flat-square" alt="Docs: English %2B 中文" />
 </p>
 
+> Build interfaces from reusable pieces. This repository establishes the project identity and documentation before the component source is added.
+
 </div>
 
 ## Overview
@@ -31,6 +34,8 @@
 This repository hosts the project landing page for **Tuolola Element Components**.
 
 At migration time, the [Gitee source repository](https://gitee.com/guolola/tuolola-element-components) contained no Git commits, branches or source files. This GitHub repository therefore starts with documentation and an MIT license; there is no component implementation or installable package yet.
+
+[Current status](#current-status) · [Project scope](#project-scope) · [Development workflow](#development-workflow) · [Quick start](#quick-start)
 
 ## Current Status
 
@@ -41,6 +46,25 @@ At migration time, the [Gitee source repository](https://gitee.com/guolola/tuolo
 | Component source and examples | Pending |
 | Package manifest and build configuration | Pending |
 | npm package and usage API | Not provided |
+
+## Project Scope
+
+The project is at the repository-setup stage. The current deliverable is a documented source home with a dedicated logo, bilingual introduction and MIT license.
+
+| Ready now | To add with the implementation |
+| --- | --- |
+| Project identity and repository documentation | Component source and framework requirements |
+| English and Simplified Chinese entry points | API reference and usage examples |
+| MIT license | Package metadata, local development and build scripts |
+
+## Development Workflow
+
+1. Add the original component implementation and retain any third-party notices.
+2. Define the package manifest, framework versions and build entry points.
+3. Add a small runnable usage example for each supported component.
+4. Document the public API, verification commands and release process from the actual implementation.
+
+These are contribution steps, not features already implemented in this repository.
 
 ## Quick Start
 
@@ -55,7 +79,18 @@ There is currently no dependency-install, development-server or build command. T
 
 ## Adding Source
 
-Add the original implementation to this repository, then document its actual framework requirements, component APIs, examples, installation and build process. The repository name alone does not establish a dependency on Element UI or Element Plus.
+Add the original implementation to this repository, then document its actual framework requirements, component APIs, examples, installation and build process.
+
+## Architecture and Documentation
+
+| Path | Purpose |
+| --- | --- |
+| `README.md` | English project introduction |
+| `readme-zh-cn.md` | Simplified Chinese introduction |
+| `docs/brand/logo.png` | Project logo |
+| `LICENSE` | MIT license |
+
+Component architecture, dependency versions and runtime commands will be documented with the actual source.
 
 ## License
 

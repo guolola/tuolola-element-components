@@ -1,7 +1,7 @@
 [English](./README.md) | **简体中文**
 
 <p align="center">
-  <img src="./docs/brand/icon.svg" width="120" height="120" alt="Tuolola Element Components logo" />
+  <img src="./docs/brand/logo.png" width="120" height="120" alt="Tuolola Element Components logo" />
 </p>
 
 <div align="center">
@@ -10,7 +10,8 @@
 
 <p>
   <strong>Tuolola 组件项目的托管入口</strong><br />
-  项目文档与 MIT 协议 · 源码待补充
+  可复用组件项目的文档与托管起点。<br />
+  <sub>项目标识 · 双语文档 · MIT 协议</sub>
 </p>
 
 <p>
@@ -24,6 +25,8 @@
   <img src="https://img.shields.io/badge/Docs-English%20%2B%20中文-2563eb?style=flat-square" alt="Docs: English %2B 中文" />
 </p>
 
+> 用可复用的模块组织界面。本仓库先建立项目标识与文档入口，组件源码将在后续补充。
+
 </div>
 
 ## 项目介绍
@@ -31,6 +34,8 @@
 本仓库是 **Tuolola Element Components** 的项目首页。
 
 迁移时，[Gitee 原仓库](https://gitee.com/guolola/tuolola-element-components) 没有 Git 提交、分支或源文件。因此 GitHub 仓库先提供项目文档与 MIT 协议，尚无组件实现或可安装的软件包。
+
+[当前状态](#当前状态) · [项目范围](#项目范围) · [开发流程](#开发流程) · [快速开始](#快速开始)
 
 ## 当前状态
 
@@ -41,6 +46,25 @@
 | 组件源码与使用示例 | 待补充 |
 | 包配置与构建配置 | 待补充 |
 | npm 包与组件 API | 尚未提供 |
+
+## 项目范围
+
+项目目前处于仓库准备阶段，现有成果是带独立 Logo、中英文介绍和 MIT 协议的源码托管入口。
+
+| 已准备 | 随实现补充 |
+| --- | --- |
+| 项目标识与仓库文档 | 组件源码与框架要求 |
+| 英文和简体中文入口 | API 参考和使用示例 |
+| MIT 协议 | 包配置、本地开发和构建脚本 |
+
+## 开发流程
+
+1. 添加原始组件实现，并保留第三方声明。
+2. 根据源码定义包配置、框架版本与构建入口。
+3. 为每个支持的组件提供可运行的小型使用示例。
+4. 根据实际实现编写公共 API、验证命令和版本发布说明。
+
+以上是后续贡献步骤，并非仓库中已经实现的功能。
 
 ## 快速开始
 
@@ -55,7 +79,18 @@ cd tuolola-element-components
 
 ## 补充源码
 
-将原始实现提交到本仓库后，补充真实的框架要求、组件 API、使用示例、安装与构建步骤。仅凭仓库名称不能确认它依赖 Element UI 或 Element Plus。
+将原始实现提交到本仓库后，补充真实的框架要求、组件 API、使用示例、安装与构建步骤。
+
+## 架构与文档
+
+| 路径 | 内容 |
+| --- | --- |
+| `README.md` | 英文项目介绍 |
+| `readme-zh-cn.md` | 简体中文介绍 |
+| `docs/brand/logo.png` | 项目 Logo |
+| `LICENSE` | MIT 协议 |
+
+组件架构、依赖版本和运行命令会随真实源码补充。
 
 ## 开源协议
 
